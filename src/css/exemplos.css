@@ -1,0 +1,46 @@
+/* Definindo o estilo para um elemento com a classe "exemplo" */
+.exemplo {
+    color: #333; /* Cor do texto */
+    background-color: #f0f0f0; /* Cor de fundo */
+    font-family: Arial, sans-serif; /* Fonte */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Espessura da fonte */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Decoração do texto (nenhuma) */
+    line-height: 1.5; /* Altura da linha */
+    margin: 20px; /* Margens externas */
+    padding: 10px; /* Preenchimento interno */
+    border: 2px solid #999; /* Borda */
+    width: 300px; /* Largura */
+    height: 150px; /* Altura */
+    display: block; /* Exibição como bloco */
+    position: relative; /* Posicionamento relativo */
+    float: left; /* Alinhamento horizontal */
+    clear: both; /* Limpar elementos flutuantes */
+    z-index: 1; /* Ordem de empilhamento */
+    opacity: 0.8; /* Opacidade */
+    visibility: visible; /* Visibilidade */
+    text-transform: uppercase; /* Transformação de texto */
+    cursor: pointer; /* Tipo de cursor do mouse */
+    background-image: url('imagem.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Tamanho da imagem de fundo */
+    background-repeat: no-repeat; /* Repetição da imagem de fundo */
+    background-position: center; /* Posição da imagem de fundo */
+    box-shadow: 5px 5px 10px #888; /* Sombra */
+    border-radius: 10px; /* Cantos arredondados */
+    transition: all 0.3s ease; /* Transição suave */
+    animation: animacao 3s infinite; /* Animação */
+    /*a:active: */    /*muda a cor de um linck ativo ao passar o mouse*/
+}
+
+/* Definindo uma animação chamada "animacao" */
+@keyframes animacao {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*
+O original não se desoriginaliza
+Não se desoriginalizara
+*/
+
